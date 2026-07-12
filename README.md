@@ -1,4 +1,4 @@
-## Market-analyzer links
+## Market-analyzer-web links
 * http://localhost:8080/ — BTCUSDT chart
 * http://localhost:8080/actuator
 * http://localhost:8080/h2-console
