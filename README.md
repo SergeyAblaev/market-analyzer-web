@@ -1,5 +1,5 @@
-## Market-analyzer links
-* http://localhost:8080/ — BTCUSDT chart
+## Market-analyzer-web links
+* http://localhost:8080/ — Static UI (BTCUSDT chart)
 * http://localhost:8080/actuator
 * http://localhost:8080/h2-console
 * http://localhost:8080/swagger-ui/index.html
@@ -77,5 +77,5 @@ trades.spot
 trades.futures
 
 
-Now needs to fix:
-1. PercentChangeRule.java !!! Check it.
+### Backlog:
+1. PercentChangeRule.java ! Check it.
