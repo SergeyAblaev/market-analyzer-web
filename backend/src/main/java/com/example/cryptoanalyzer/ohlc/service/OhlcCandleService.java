@@ -22,4 +22,12 @@ public class OhlcCandleService {
     public Page<OhlcCandle> getPage(Pageable pageable) {
       return repository.findAll(pageable);
     }
+
+    public Page<OhlcCandle> getPage(String symbol, Pageable pageable) {
+      if (symbol == null || symbol.isBlank()) {
+        return repository.findAll(pageable);
+      }
+
+      return repository.findAllBySymbolIgnoreCase(symbol, pageable);
+    }
 }

@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/alerts")
 @RequiredArgsConstructor
+@Deprecated
 public class AlertController {
 
     private final AlertEventService service;

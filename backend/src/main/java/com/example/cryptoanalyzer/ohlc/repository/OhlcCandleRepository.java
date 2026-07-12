@@ -13,4 +13,6 @@ public interface OhlcCandleRepository extends JpaRepository<OhlcCandle, Long> {
     Page<OhlcCandle> findAll(Pageable pageable);
 
     Collection<OhlcCandle> findAllBySymbol(String symbol);
+
+    Page<OhlcCandle> findAllBySymbolIgnoreCase(String symbol, Pageable pageable);
 }

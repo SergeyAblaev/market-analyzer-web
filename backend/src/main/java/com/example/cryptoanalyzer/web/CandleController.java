@@ -17,6 +17,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/api/candle")
 @RequiredArgsConstructor
+@Deprecated
 public class CandleController {
 
     private final OhlcCandleService service;

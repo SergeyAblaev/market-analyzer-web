@@ -117,6 +117,10 @@ public class BinanceWebSocketClient {
         return "Ticker removed";
     }
 
+    public List<TickerSubscription> getSubscriptionsSnapshot() {
+        return List.copyOf(subscriptions);
+    }
+
     // =========================
     // CONNECT
     // =========================
