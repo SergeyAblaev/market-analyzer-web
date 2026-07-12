@@ -19,7 +19,7 @@ public class AlertRulesConfig {
 
     private final AlertProperties alertProperties;
 
-    @Value("#{${rules.impulse-move.is-active}}")
+    @Value("${rules.impulse-move.is-active:false}")
     private boolean isActiveImpulseMoveRule;
 
     @Bean
