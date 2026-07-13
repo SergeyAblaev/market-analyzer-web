@@ -1,10 +1,16 @@
 ## Market-analyzer-web links
+* http://localhost:3000/ — Next.js frontend baseline
 * http://localhost:8080/ — Static UI (BTCUSDT chart)
 * http://localhost:8080/actuator
+* http://localhost:8080/actuator/prometheus 
 * http://localhost:8080/h2-console
 * http://localhost:8080/swagger-ui/index.html
 
 It's an Event-Driven Architecture (EDA), with Streaming / Reactive pipeline.
+
+![Screen](./docs/img.png)
+
+![Screen1](./docs/img_1.png)
 
 ## Setup instructions:
 
